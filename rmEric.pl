@@ -1,5 +1,5 @@
 print "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
-print "\n------------------ delect ericsson header ----------------\n";
+print "\n------------------ delect Baicsson header ----------------\n";
 print "\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 
 $inputFileName = $ARGV[0];
@@ -7,7 +7,7 @@ print $inputFileName;
 chomp ($inputFileName);
 $outputFileName = $inputFileName;
 #$outputFileName =~ s/.dec//;
-$outputFileName1 = join($outputFileName,"baicells_","");
+$outputFileName1 = join($outputFileName,"Kingta_","");
 print "\nOutput file is $outputFileName1\n";
        
 open(inFile, "<$inputFileName")
